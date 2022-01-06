@@ -24,10 +24,12 @@ padding-left: 15px;
 }
 .heading-div h1{
     font-size: 40px;
+    font-family: 'Merriweather', serif;
 }
 .heading-div h2{
     font-size: 36px;
     color: #03d3fc;
+    font-family: 'Merriweather', serif;
 }
 .intro-section .content-div{
 margin:auto 0px;
@@ -55,6 +57,7 @@ padding: 10px;
 .mission-section .mission-div-heading h1{
     font-size: 43px;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 .mission-section .mission-div-heading span{
     color: #03d3fc;
@@ -68,11 +71,15 @@ padding: 10px;
 }
 .mission-section .mission-content h4{
     font-size: 23px;
+    font-family: 'Merriweather', serif;
 }
 .mission-section .mission-content div{
     padding: 15px;
     margin:0px 10px;
     border-radius: 30px;
+    width: 500px;
+    height: 450px;
+    text-align: justify;
 }
 .mission-section .mission-content div img{
     width: 40%;
@@ -89,8 +96,6 @@ background-color: rgba(130,74,233,0.3)
 .mission-section .mission-content .Goals{
 background-color: rgba(164,164,164,0.5);
 }
-
-
 
 .develop-section{
     display: flex;
@@ -119,6 +124,7 @@ background-color: rgba(164,164,164,0.5);
 }
 .develop-section .right-div .content-heading h1{
 font-size: 40px;
+font-family: 'Merriweather', serif;
 }
 
 
@@ -170,5 +176,47 @@ font-size: 40px;
     font-family: 'Merriweather', serif;
 }
 .footer .content span{
+    color: #03d3fc;
+}
+
+
+.services{
+    padding: 2% 6%;
+    margin: 30px 0px;
+}
+
+.services .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .service-heading h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.services .col-width{
+    padding: 20px;
+    margin: 0 13px;
+    text-align: center;
+    border: 4px solid #fcbe03;
+    height: 300px;
+}
+.services .col-width p{
+    /* height: 200px; */
+}
+.services .col-width:hover{
+    border: 4px solid #fcbe03;
+    box-shadow: 10px 10px 8px #888888;
+    transition: 0.4s;
+
+}
+.services .col-width h3{
+    text-align: center;
+    font-size: 22px;
+}
+
+.services span{
     color: #03d3fc;
 }
