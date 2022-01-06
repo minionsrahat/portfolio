@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* introduction section css start */
 .intro-section{
     display: flex;
     margin-top: 10px;
@@ -49,6 +50,11 @@ background-color: #fcbe03;
    padding-top: 15px;
 }
 
+/* introduction section css end */
+
+
+
+/* mission section css start */
 
 .mission-section .mission-div-heading{
 margin-top: 30px;
@@ -96,7 +102,10 @@ background-color: rgba(130,74,233,0.3)
 .mission-section .mission-content .Goals{
 background-color: rgba(164,164,164,0.5);
 }
+/* mission section css end */
 
+
+/* develop section css start */
 .develop-section{
     display: flex;
     margin-top: 30px;
@@ -126,9 +135,10 @@ background-color: rgba(164,164,164,0.5);
 font-size: 40px;
 font-family: 'Merriweather', serif;
 }
+/* mission section css end */
 
 
-
+/* knowladge section css start */
 .Knowladge-section{
     display: flex;
     margin-top: 30px;
@@ -157,8 +167,10 @@ font-family: 'Merriweather', serif;
 .Knowladge-section .left-div .content-heading h1{
 font-size: 40px;
 }
+/* knowladge section css end */
 
 
+/* footer section css start */
 .footer{
     background-color: black;
     margin:0;
@@ -178,8 +190,9 @@ font-size: 40px;
 .footer .content span{
     color: #03d3fc;
 }
+/* footer section css end */
 
-
+/* services section css start */
 .services{
     padding: 2% 6%;
     margin: 30px 0px;
@@ -220,3 +233,5 @@ font-size: 40px;
 .services span{
     color: #03d3fc;
 }
+
+/* services section css end */
