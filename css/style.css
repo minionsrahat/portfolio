@@ -1,11 +1,13 @@
 body{
     /* margin-left: 0;
     margin-top: 0; */
+    margin: 0;
+    padding: 0;
 }
 .intro-section{
     display: flex;
     margin-top: 10px;
-    padding-left: 40px;
+    padding: 0 6%;
     height: 450px;
 }
 .half-width{
@@ -13,7 +15,7 @@ body{
 }
 .half-width img{
     width: 50%;
-    padding-left: 40px;
+    padding-left:16%;
 }
 .heading-div{
 font-family: 'Merriweather', serif;
@@ -31,7 +33,7 @@ padding-left: 15px;
 margin:auto 0px;
 padding-left: 30px;
 }
-.intro-section .linked-button {
+.button-div .linked-button {
 text-decoration: none;
 padding: 8px 12px;
 border-radius: 3px;
@@ -59,8 +61,7 @@ padding: 10px;
 }
 
 .mission-section .mission-content{
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0 6%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,6 +88,87 @@ background-color: rgba(130,74,233,0.3)
 }
 .mission-section .mission-content .Goals{
 background-color: rgba(164,164,164,0.5);
+}
 
 
+
+.develop-section{
+    display: flex;
+    margin-top: 30px;
+    /* padding-left: 40px; */
+    height: 450px;
+    padding:0 6%;
+}
+.develop-section .left-div{
+    width: 40%;
+    margin:auto 0px;
+    background-image: url('../images/shapes/shape-1.png');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: left center;
+    
+    /* padding-left: 1%; */  
+}
+.develop-section .left-div img{
+    padding-left: 16%;
+    width: 60%;
+}
+.develop-section .right-div{
+    width: 60%;
+    margin:auto 0px;
+}
+.develop-section .right-div .content-heading h1{
+font-size: 40px;
+}
+
+
+
+.Knowladge-section{
+    display: flex;
+    margin-top: 30px;
+    /* padding-left: 40px; */
+    height: 450px;
+    padding:0 6%;
+}
+.Knowladge-section .right-div{
+    width: 40%;
+    margin:auto 0px;
+    background-image: url('../images/shapes/shape-1.png');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: right bottom;
+}
+.Knowladge-section .right-div img{
+    padding-left: 20%;
+    width: 60%;
+    padding-bottom: 15%;
+}
+.Knowladge-section .left-div{
+    width: 60%;
+    margin:auto 0px;
+    padding-bottom: 15%;
+}
+.Knowladge-section .left-div .content-heading h1{
+font-size: 40px;
+}
+
+
+.footer{
+    background-color: black;
+    margin:0;
+}
+.footer .content{
+   
+    padding: 20px;
+    /* padding: 0%; */
+   
+    text-align: center;
+    color: white;
+}
+.footer .content h3{
+    font-size: 27px;
+    font-family: 'Merriweather', serif;
+}
+.footer .content span{
+    color: #03d3fc;
 }
