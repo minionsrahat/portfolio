@@ -44,3 +44,49 @@ background-color: #fcbe03;
 .button-div{
    padding-top: 15px;
 }
+
+
+.mission-section .mission-div-heading{
+margin-top: 30px;
+padding: 10px;
+}
+.mission-section .mission-div-heading h1{
+    font-size: 43px;
+    text-align: center;
+}
+.mission-section .mission-div-heading span{
+    color: #03d3fc;
+}
+
+.mission-section .mission-content{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission-section .mission-content h4{
+    font-size: 23px;
+}
+.mission-section .mission-content div{
+    padding: 15px;
+    margin:0px 10px;
+    border-radius: 30px;
+}
+.mission-section .mission-content div img{
+    width: 40%;
+}
+
+.mission-section .mission-content .Mission{
+/* background-color: ; */
+background-color: rgba(130,74,233,0.3)
+
+}
+.mission-section .mission-content .Vission{
+    background-color: rgba(247,240,231,1)
+}
+.mission-section .mission-content .Goals{
+background-color: rgba(164,164,164,0.5);
+
+
+}
